@@ -12,6 +12,10 @@ Thumbs.db
 backend/.env
 frontend/.env.local
 
+# Local instruction / prompt docs
+CLAUDE.md
+SYSTEM_PROMPT.md
+
 # Python
 __pycache__/
 *.py[cod]
@@ -44,3 +48,6 @@ pnpm-debug.log*
 # Database / local data
 *.sqlite3
 *.db
+
+# Celery schedule files
+backend/celerybeat-schedule.*
